@@ -1,0 +1,365 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#nav-bar{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+
+}
+.navbar-brand img{
+    padding-left: 30px;
+    height: 50px;
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    text-align: left;
+    float: right;
+}
+#navbarNav ul li a:hover{
+    color:royalblue!important;
+     text-shadow: sandybrown; 
+     text-decoration: solid underline;
+     text-size-adjust: inherit;
+}
+.navbar{
+    background-color: #fff;
+}
+.nav-toggler{
+    border:none;
+}
+.nav-link{
+    color:#555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+#slider{
+    width:100%;
+
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5{
+    color:#fff;
+    font-size: 40px;
+}
+/* about */
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about .btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content{
+    padding-top: 20px;
+}
+.skills-bar p{
+    margin-bottom: 6px ;
+    font-weight: 600;
+}
+.progress-bar{
+    border-radius: 16px;
+}
+.progress{
+    border-radius: 16px!important;
+    margin-bottom: 20px;
+}
+/* Services */
+#services{
+    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background-position: center;
+    background-size: cover;
+    color: #f1e9e9!important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-attachment: fixed;
+
+  }
+  #services h1{
+      text-align: center;
+    color: #f1e9e9!important;
+    padding-bottom: 10px;
+  }
+  #services h1::after{
+   content: '';
+    background: #f1e9e9;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px; 
+}
+.services{
+    margin-top: 40px;
+}
+.icon{
+    font-size: 35px;
+    margin: 40px auto;
+    padding: 18px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius:40%;
+}
+#services p{
+    font-size: 14px;
+    margin-top: 20px;
+    color:#ccc;
+
+}
+.services .col-md-3:hover{
+    background: rgb(39, 167, 46);
+    cursor: progress;
+    transition: 0.5s;
+    color: black;
+}
+#team{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+h1{
+    text-align: center;
+    color: #555!important;
+    padding-bottom: 10px;
+}
+h1::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.profile-pic{
+    margin-top: 25px;
+    border-radius: 40%;
+}
+.profile-pic .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+
+.profile-pic .h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color:black;
+}
+.profile-pic .h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    color:black;
+}
+#team .fa{
+    height: 25px;
+    width: 25px;
+    background:  #fff;
+    color : #007bff !important;
+    padding: 4px;
+    border-radius: 50%;
+}
+.img-box ul{
+    padding: 15px 0px;
+    position: absolute;
+    z-index: 5;
+    bottom: 40;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0;
+   
+}
+.img-box ul li{
+   padding: 1px;
+   display: inline-block; 
+   
+}
+.img-box:hover ul {
+    opacity: 1;
+    border-radius: 100%;
+}
+.img-box ul, .img-box  ul li{
+    transition: 0.9s;
+}
+/* promo */
+.promo{
+    background-color: rgb(241, 181, 15)
+ /*   background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 38px;8*/
+}
+#price{
+    padding: 80px 0px;
+    background-color: #efefef;
+
+}
+.single-price{
+    margin: 10px auto;
+    display:inline-block;
+     float: left; 
+     width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.single-price:hover{
+ box-shadow: 0 2px 20px #333;
+}
+.price-head{
+    background-color: #157bda;
+    color-interpolation-filters: auto;
+    display: inline-block;
+    float: left;
+    padding: 10px 5px ;
+    text-align: center;
+    width: 100%;
+} 
+.price-content{
+text-align: center;
+display: inline;
+/* float: left;/ */
+/* width: 100%; */
+padding: 0 15px ;
+}
+.price-content ol li{
+    border-bottom: 1px solid #efefef;
+    padding: 15 10px;
+    list-style-type: disc;
+}
+.price-head h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding:5px ;
+    text-transform: 30px;
+}
+#price span{
+    font-size: 15px;
+}
+ol li:last-child{
+    border: none;
+}
+.price-button{
+    display: inline-block;
+    float: left;
+    padding: 15px 15px 30px;
+    text-align:center;
+    width: 100%;
+}
+.buy-button{
+    background-color: #2196f3;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 50px;
+    transition: 0.5s;
+}
+.buy-button:hover{
+    border-color: 1px solid #fff;
+    background-color: #3f51b5;
+    box-shadow: black;
+
+
+}
+a{
+    text-decoration: none!important;
+    color:#fff!important;
+}
+/* Testomonils */
+.testimonials{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* get inn touch */
+#contact{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#777;
+
+}
+.contact-form{
+    padding: 15px;
+    
+}
+.form-control{
+    border-radius: 5%!important;
+    border: none!important;
+
+}
+::placeholder{
+    color:#999!important;
+}
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin:5px;
+}
+.contact-info .fa{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+    align-self: center;
+}
+/* footere */
+#footer{
+    background: #333;
+    color: white;
+    padding: 12px;
+}
+.fa-heart-o{
+    margin:3px;
+    color: red;
+}
+#forup{
+    text-align: right;
+    font-size: 40px;
+}
+.athetop{
+    border-radius: 10%;
+    width: 5%;
+    height: 5%;
+     text-align: center;
+    background-color: #2196f3;
+    display: inline-block;
+    padding: 5px 10px;
+    right: 30px;
+    bottom: 20px;
+    z-index: 99;
+    outline: none;
+    
+}
+.black{
+    color: black;
+    background-color: black;
+}
+.yellow{
+    color: yellow;
+    background-color: yellow;
+}
+
+.stickbutton{
+    float:right;
+    position: sticky; 
+    right: 0;
+    bottom: 0;
+}
